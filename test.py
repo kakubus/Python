@@ -8,8 +8,11 @@ for i in range(10):
     print(i)
     
 a = [3, 5, 7, 9, 10, 20]
-for i in a: #pooglądać pętle w pajtonQ
-    print(a[i-1])
+
+for x in a:
+    print(x)
+    
+
 
 
 
