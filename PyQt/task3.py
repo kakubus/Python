@@ -29,9 +29,21 @@ class Task3Window(QWidget):
             Label_number_2 = QLabel(self)
             Label_number_2.setText("Pole C")
             number_2 = QSpinBox()
+            
+            Label_text_4 = QLabel(self)
+            Label_text_4.setText("Pole A + B + C")
+            text_4 = QLineEdit(self)
+            text_4.resize(250, 40)
+            
+            #opisy
             layout.addWidget(Label_text_1, 0,1)
             layout.addWidget(Label_text_2, 1,1)
             layout.addWidget(Label_number_2, 2,1)
+            layout.addWidget(Label_text_4, 3,1)
+            
+            #inputy
             layout.addWidget(text_1, 0,2)
             layout.addWidget(text_2, 1,2)
             layout.addWidget(number_2, 2,2)
+            layout.addWidget(text_4, 3,2)
+            

@@ -5,6 +5,7 @@ from PyQt6.QtWidgets import QStatusBar
 from PyQt6.QtWidgets import QToolBar
 from PyQt6.QtGui import QIcon, QAction
 
+import task1
 import task3
 
 # Tworzenie klasy głównego okna aplikacji dziedziczącej po QMainWindow
